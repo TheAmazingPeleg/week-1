@@ -1,0 +1,96 @@
+body {
+	color: #40514E;
+	font-family: 'Merriweather';
+	margin: 0;
+}
+h1, h2, span {
+	color: #66BFBF;
+}
+h1 {
+	font-family: 'Sacramento';
+}
+h2{
+	font-family: 'Montserrat';
+}
+h3 {
+	color: #11999E;
+	font-family: 'Montserrat';
+}
+h4 {
+	font-family: 'Montserrat';
+}
+h5 {
+	font-family: 'Montserrat';
+}
+h6 {
+	font-family: 'Montserrat';
+}
+button {
+	background-color: #11cdd4;
+	color: #ffffff;
+}
+button:hover {
+	background-color: #30e3cb;
+}
+#contact p {
+	line-height: 150%;
+}
+.cloud {
+	position: absolute;
+	z-index: 1;
+}
+#cloud1 {
+	right: 300px;
+	top: 40px;
+}
+#cloud2 {
+	left: 250px;
+	bottom: 300px;
+}
+.header {
+	padding-top: 20px;
+	background: #E4F9F5;
+}
+.footer {
+	padding: 20px;
+	background: #66BFBF;
+	color: #EAF6F6
+}
+.footer a{
+	text-decoration: none;
+}
+.content{
+	padding: 20px;
+	margin: 50px 20%;
+	font-size: 10px;
+}
+.nav {
+	margin-top: 20px;
+}
+#topButton {
+  position: fixed;
+  bottom: -3px;
+  right: 0px;
+}
+.navButton {
+	border: none;
+	border-radius: 25px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.navButton:hover {
+	background-color: #6082B6;
+}
+.clear {
+	clear : both;
+}
+.handle {
+	margin: 100px 0;
+}
+.conButton {
+	font-family: 'Assistant';
+	border: none;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 20px;
+}

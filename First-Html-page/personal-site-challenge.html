@@ -3,27 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento|Assistant" rel="stylesheet">
         <title> Personal Site Challenge </title>
-        <!-- Font Import -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet"> -->
-        <!-- CSS Files -->
     </head>
     <body>
-        I'm a Dev Club Member.
-        a programmer 
-        Hello.
-        I am a Web Developer.And I ❤️ to code
-        My Skills.
-        Design & Development
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-        Debugging
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-        Get In Touch
-        If you love coding as much as I do.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur quisquam deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum ducimus, rerum alias! Quos cum, sequi molestiae itaque id sunt!
-        LinkedIn
-        Twitter
-        Website
-        © DevClub
+			<div id="top" class="header">
+				<center><img class="cloud" id="cloud1" src="asset/cloud.png"/>
+				<h1>
+					Im a devClub member <br />
+				</h1>
+				<span>a programmer</span><br />
+				<div class="nav">
+					<button class="navButton" onclick="location.href='#about';" style="margin-right: 10px;">About</button>
+					<button class="navButton" onclick="location.href='#skills';" style="margin-right: 10px;">My Skills</button>
+					<button class="navButton" onclick="location.href='#contact';">Contact</button>
+				</div>
+				<img class="cloud" id="cloud2" src="asset/cloud.png" /><br />
+				<img src="asset/mountain.png" /></center>
+				<div id="topButton"><a href="#top"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAADY2NjW1tb6+vr29vbc3Nw7Ozs4ODhlZWXg4OA+Pj5iYmJxcXF5eXleXl7t7e3l5eWNjY1FRUUnJyc0NDRNTU0QEBC1tbWGhoampqaWlpYZGRnAwMDx8fF+fn5ra2ufn59VVVW0ML3RAAADKUlEQVR4nO3ba1fiMBSF4ZKWoh0UCo4CKl7+/4/UGWHs5Zw0GVqbdL3PV7Urm+7TBFwkCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6VHbOxlzCk9eP27ulu+7geeyFD2czONmMvZRDz7ezbdj72cvqXLWZVV5Mbx+zXrG4xsYjzq1nT70kVtVHRU1EnFLFV0akVdS7dwSndRTXgVCJm7YdM5XEzgaIqMzidWRS2icZdjLyolhmcxiyK+2ArYsRF7ZjB+GfRoaJxF9WpojEX1bGi8RbVuaKxFtUzYHwRrUc1WVwHOMsMPqk/iWkWLUe1ZXmt38VoimqZwes8z/WIscyiZR9c5sYYW8QoimqZwVVh/iiW6m8sIriLtop+BfyMGHNRLdvEdW7OIi6qpaLL74CfES1FDTqipaLLwlRZZjHkolq3CVMX5aZh2SZaAY1Z3+oRAy1q9zZRkZZJcqP+fpizaDuqiQGTRL+LIR7gvCr6FdAWMbxZdN0magFtEUMrqt8MFt9/qM9iWHfR5agmBoylqG5HtX+bff2PLY+bYIrqVdFmwBg2Da9twuTtC4ReVJ+jmhgw9Ihd7+gbAeXehXyA85tBJWDIs+j+dukvfbWhFtXv3YQlYKhF9Tqq2QOGeYCzVFSYwY6AIR7gvI5qxnSvMrhZvNcDChV1WaMe8X7wNIKDuhyhounR6Zp6UQ8DpxFkD9pihG3CMaDlLj78/NPmWVuLUFHngJaIzwNmkb1od/CigHrEl8GSaJRPdKUZ9PvygTKLy4Fy6OSEwjbhGVC7iz+f8FUMKFTU/+sjYsTX3hN0eZNe514CykV96z1Bl0II2ENFvwgRWx9+DG/lUtGy+zqiVlFXva7dTTlgwHbE/7/SBXb1F1mo6CXLqhd119uqvVSPNbc9B6x+022MA81JeX6h33dCwEufDen76eo3o1T0ZL3b7DeHIin7D/ipOOz3m10Y38c8ps2EIzzdh9Vs6eQCJln9JoofbUeu2tN0igGTZJ6fM164TQRsXZg0TfMygP+mDCbL5qP/JwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACD4Agwwin6V9PI4AAAAASUVORK5CYII=" width="50px" /></a></div>
+			</div>
+			<div class="main">
+				<div class="content" id="about"><center>
+					<img src="https://cdn-icons-png.flaticon.com/512/1803/1803671.png" width="200px" />
+					<h2>Hello.</h2>
+					<p>I am a Web Developer.And I <span style="color: red">❤️</span> to code</p>
+				</center></div>
+				<div class="content" id="skills">
+					<br /><center><h2>My Skills</h2></center>
+					<div class="handle">
+						<img style="width: 22%; float: right" src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" height="130px" />
+						<div class="text" style="width: 78%; float: left">
+							<h3>Design & Development</h3>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="handle">
+						<img style="width: 17%; float: left" src="https://media.giphy.com/media/ukMiDlCmdv2og/giphy.gif" height="130px" />
+						<div style="width: 82%; float: left; margin-left: 1%;">
+							<h3>Debugging</h3>
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="content" id="contact">
+					<center>
+						<h2>Get In Touch</h2>
+						<h3>if you love coding as much as I do</h3>
+						<p style="width: 80%">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?</p>
+						<button class="conButton">CONTACT ME</button>
+					</center>
+				</div>
+			</div>
+			<div class="footer"><center>
+				<a href="">LinkedIn</a><a style="margin-left: 30px;" href="">Twitter</a><a style="margin-left: 30px;" href="">Website</a><br />
+				<br /><span style="color: #ffffff">&#169; DevClub</span>
+			</center></div>
     </body>
 </html>

@@ -1,0 +1,155 @@
+body {
+	background-position: right bottom;
+	background: hsl(229, 57%, 11%);
+	background-image: url('../assets/bg-desktop.png');
+	background-repeat: no-repeat;
+	background-size: 100% 50%;
+	background-attachment: fixed;
+	background-position: bottom;
+	font-family: 'Raleway';
+}
+.main {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin: 0 auto;
+	width: 80%;
+}
+.content{
+	background: hsl(228, 56%, 26%);
+}
+button {
+	background: #020626;
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+}
+#con1 {
+	float: left;
+    width: 30%;
+	margin-right: 2%;
+	border-radius: 10px 80px 10px 10px;
+	padding-right: 5%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height: 100px;
+}
+#con2{
+	float: left;
+    width: 63%;
+	margin-top: 30px;
+	border-radius: 10px;
+	height: 120px;
+}
+.bar {
+	background: #020626;
+	width: 100%;
+	height: 10px;
+	border-radius: 20px;
+	padding: 2px;
+}
+.progress-bar {
+	background-image: url('../assets/progressbar.png');
+	background-size: 100%;
+	height: 10px;
+	border-radius: 5px;
+	width: 81%;
+}
+.inside {
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #DCDCDC;
+}
+.inside span {
+	font-weight: bold;
+}
+.bar div span {
+	position: relative;
+	height: 20px;
+	width: 20px;
+	font-size: 8px;
+	border: 2px solid black;
+	border-radius: 50%;
+	background: #ffffff;
+	float: left;
+	margin-top: -7px;
+	margin-left: 98%;
+	color: #333333;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.speech-bubble {
+	padding: 10px;
+	position: absolute;
+	background: white;
+	border-radius: .4em .4em 0px .4em;
+	top: 10px;
+	right: 30px;
+	width: 100px;
+	height: 15px;
+}
+.speech-bubble span {
+	font-size: 10px;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	color: grey;
+	margin-left: 2px;
+}
+.speech-bubble p {
+	position: absolute;
+	top: -10px;
+	left: 10px;
+}
+
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -18px;
+}
+@media (max-width: 600px) {
+	body {
+		background-position: top;
+		background: hsl(229, 57%, 11%);
+		background-image: url('../assets/bg-mobile.png');
+		background-size: 150%;
+	}
+	#con1 {
+		width: 80%;
+	}
+	#con2 {
+		width: 85%;
+	}
+	.speech-bubble {
+		font-size: 1em;
+		padding: 10px;
+		position: relative;
+		background: white;
+		border-radius: .4em;
+		top: 5px;
+		right: 0;
+		margin: 0 auto;
+		width: 60px;
+		height: 20px;
+	}
+	.speech-bubble:after {
+		border: 0px solid transparent;
+	}
+	.speech-bubble span {
+		top: 10px;
+	}
+}
